@@ -5,6 +5,12 @@ This is a simple pushbullet wrapper written in C#. You can easily add this libra
 
 There are examples of how to use the library in the test project included. Remember to provide your api key when running the tests.
 
+For more documentation, check out the [Wiki](https://github.com/adamyeager/PushbulletSharp/wiki).
+
+Information on the Push Request objects can be found [here](https://github.com/adamyeager/PushbulletSharp/wiki/Push-Request-Objects).
+
+Information on the Contacts Request objects can be found [here](https://github.com/adamyeager/PushbulletSharp/wiki/Contacts-Request-Objects).
+
 #### Pushing a Note Example
 
 	PushbulletClient client = new PushbulletClient("--YOURAPIKEY--");
