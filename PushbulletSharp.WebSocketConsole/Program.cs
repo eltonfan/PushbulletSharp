@@ -10,7 +10,7 @@ namespace PushbulletSharp.WebSocketConsole
     {
         static void Main(string[] args)
         {
-            string key = "--YOURKEYGOESHERE--";
+            string key = SecretKeys.Pushbullet.AccessToken;
             JavaScriptSerializer js = new JavaScriptSerializer();
             PushbulletClient Client = new PushbulletClient(key, TimeZoneInfo.Local);
 
